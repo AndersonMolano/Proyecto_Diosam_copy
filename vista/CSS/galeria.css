@@ -1,0 +1,173 @@
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    background-size: cover;
+    background-image: url(../IMG/3225.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  img {
+    border-radius: 10pc;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .contenedor-logo-texto {
+    display: flex;
+    align-items: center;
+    color: white;
+    position: absolute;
+    margin-left: 10px;
+    z-index: 3;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .texto {
+    margin-right: 23pc;
+    font-size: 40px;
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    text-shadow: 2px 2px red;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .contenido ul {
+    margin-top: -4%;
+    margin-left: 65%;
+    display: flex;
+    font-size: medium;
+    font-family: 'Lobster Two', cursive;
+    list-style-type: none;
+  }
+  
+  .contenido li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    font-size: 16px;
+    font-family: arial;
+    padding: 5px;
+    margin: 2px;
+  }
+a[href="login.html"] {
+    background-color: transparent;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #FF0000;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  a[href="login.html"]:hover {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+  }
+  
+  .nav {
+    --bs-nav-link-color: white;
+    --bs-nav-link-hover-color: #FF0000;
+    font-size: 20px;
+  }
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 20px #000; /* #000 representa el color negro */
+    font-weight: bold;
+    font-family: 'Lobster Two', cursive;
+
+}
+h4{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+text-shadow: 2px 2px black;
+font-family: 'Lobster Two', cursive;
+font-size: 200%;
+
+}
+h5{
+    color: white;
+    text-align: center;
+}
+
+.carousel {
+    max-width: 600px; /* Ajusta el ancho máximo del carousel según tus necesidades */
+    margin: 0 auto; /* Centra el carousel en la página */
+}
+
+.carousel-inner img {
+    border-radius: 20px; /* Establece el radio de las esquinas a 0 para hacer que los bordes sean cuadrados */
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .contenido ul {
+  margin-top: 0;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lobster Two', cursive;
+  color: white;
+}
+
+footer .contenido li {
+  margin: 0 10px;
+  list-style-type: none;
+  font-size: 16px;
+}
+
+footer .contenido a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 2px solid white;
+}
+
+footer .contenido a:hover {
+  background-color: white;
+  color: #333;
+}
+
